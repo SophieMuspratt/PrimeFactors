@@ -34,5 +34,11 @@ public class PrimeNumbersTest
 	{
 		assertEquals(Arrays.asList(2, 2), primeNumbers.primeFactorsOf(4));
 	}
+	
+	@Test
+	public void factorsOfFive()
+	{
+		assertEquals(Arrays.asList(5), primeNumbers.primeFactorsOf(5));
+	}
 
 }
