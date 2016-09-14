@@ -40,5 +40,5 @@ public class PrimeNumbersTest
 	{
 		assertEquals(Arrays.asList(5), primeNumbers.primeFactorsOf(5));
 	}
-
+	
 }
