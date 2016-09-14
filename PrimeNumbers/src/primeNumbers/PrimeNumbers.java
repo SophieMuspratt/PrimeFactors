@@ -20,6 +20,10 @@ public class PrimeNumbers
 			primeList.add(prime);
 		}	
 		
+		if (prime % 5 == 0){
+			primeList.add(prime);
+		}	
+		
 		return primeList;
 
 	}
