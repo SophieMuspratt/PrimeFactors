@@ -65,4 +65,10 @@ public class PrimeNumbersTest
 		assertEquals(Arrays.asList(3, 3), primeNumbers.primeFactorsOf(9));
 	}
 	
+	@Test
+	public void factorsOfTen()
+	{
+		assertEquals(Arrays.asList(2, 5), primeNumbers.primeFactorsOf(10));
+	}
+	
 }
