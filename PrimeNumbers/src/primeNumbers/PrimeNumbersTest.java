@@ -47,4 +47,10 @@ public class PrimeNumbersTest
 		assertEquals(Arrays.asList(2, 3), primeNumbers.primeFactorsOf(6));
 	}
 	
+	@Test
+	public void factorsOfSeven()
+	{
+		assertEquals(Arrays.asList(7), primeNumbers.primeFactorsOf(7));
+	}
+	
 }
