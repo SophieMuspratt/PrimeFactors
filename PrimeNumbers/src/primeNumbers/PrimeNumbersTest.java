@@ -53,4 +53,10 @@ public class PrimeNumbersTest
 		assertEquals(Arrays.asList(7), primeNumbers.primeFactorsOf(7));
 	}
 	
+	@Test
+	public void factorsOfEight()
+	{
+		assertEquals(Arrays.asList(2, 2, 2), primeNumbers.primeFactorsOf(8));
+	}
+	
 }
