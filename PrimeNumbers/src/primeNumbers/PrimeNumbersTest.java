@@ -71,4 +71,10 @@ public class PrimeNumbersTest
 		assertEquals(Arrays.asList(2, 5), primeNumbers.primeFactorsOf(10));
 	}
 	
+	@Test
+	public void factorsOfOneHundredAndThirtyTwo()
+	{
+		assertEquals(Arrays.asList(2, 2, 3, 11), primeNumbers.primeFactorsOf(132));
+	}
+	
 }
