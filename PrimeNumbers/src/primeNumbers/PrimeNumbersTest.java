@@ -59,4 +59,10 @@ public class PrimeNumbersTest
 		assertEquals(Arrays.asList(2, 2, 2), primeNumbers.primeFactorsOf(8));
 	}
 	
+	@Test
+	public void factorsOfNine()
+	{
+		assertEquals(Arrays.asList(3, 3), primeNumbers.primeFactorsOf(9));
+	}
+	
 }
